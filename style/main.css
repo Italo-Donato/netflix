@@ -1,0 +1,46 @@
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+    --branco: #aaa;
+}
+
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    color: var(--vermelho);
+    font-family: "Arial Black", 'Times New Roman', Times, serif;
+}
+
+header{
+    padding: 1rem;
+}
+
+header nav > a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 1rem;
+}
+
+header nav > a:hover{/*importante*/
+    color: #fff;
+}
+
